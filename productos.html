@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Supermercado Hermanas Amador</title>
+  <meta name="description" content="Explora nuestro catálogo de productos de alimentación y de droguería. Calidad y buenos precios todos los días.">
+  <meta name="keywords" content="supermercado, hermanas amador, supermercado hermanas amador, hermanas amador supermercado, supermercado hermanas amador villacañas, hermanas amador villacañas, alimentación, droguería, eventos, servicios">
+
+  <!-- Favicon -->
+  <link href="recursos/img/imagen_corporativa/favicon.png" rel="icon">
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Archivos CSS del proveedor -->
+  <link href="recursos/proveedor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="recursos/proveedor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="recursos/proveedor/aos/aos.css" rel="stylesheet">
+  <link href="recursos/proveedor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Archivo principal CSS -->
+  <link href="recursos/css/main.css" rel="stylesheet">
+
+  <!-- Font Awesome Free -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Material Design Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <div href="" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="recursos/img/imagen_corporativa/logo_sin_fondo.png" alt="Logotipo del supermercado Hermanas Amador">
+      </div>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./productos.html" class="active">Productos</a></li>
+          <li><a href="./eventos.html">Eventos</a></li>
+          <li><a href="./conocenos.html">Conócenos</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="products" class="products section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Productos</h2>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="products-filters">
+              <ul class="nav nav-pills justify-content-center" id="productsTabs" role="tablist">
+                
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="products-starters-tab" data-bs-toggle="pill" data-bs-target="#products-starters" type="button" role="tab">
+                    <i class="bi bi-fork-knife me-2"></i>Alimentación
+                  </button>
+                </li>
+                
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="products-drinks-tab" data-bs-toggle="pill" data-bs-target="#products-drinks" type="button" role="tab">
+                    <i class="bi bi-cup-fill me-2"></i>Bebidas
+                  </button>
+                </li>
+                
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="products-mains-tab" data-bs-toggle="pill" data-bs-target="#products-mains" type="button" role="tab">
+                    <i class="bi bi-stars me-2"></i>Droguería
+                  </button>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="productsTabContent">
+
+          <!-- Alimentación -->
+          <div class="tab-pane fade show active" id="products-starters" role="tabpanel">
+            <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+              
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/bolleria.jpg" class="img-fluid" alt="Bollería">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Bollería</h4>
+                      <div class="dietary-tags">
+                        <span class="tag marron"><i class="fa-solid fa-cheese"></i></span>
+                      </div>
+                    </div>
+                    <p>Deliciosos croissants, magdalenas, tortas de Alcázar, etc para desayunos y meriendas.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/charcuteria.jpg" class="img-fluid" alt="Charcutería">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Charcutería</h4>
+                      <div class="dietary-tags">
+                        <span class="tag spicy"><i class="fas fa-drumstick-bite"></i></span>
+                      </div>
+                    </div>
+                    <p>Embutidos y fiambres frescos para tus comidas y bocadillos.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/condimentos.jpg" class="img-fluid" alt="Condimentos">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Condimentos</h4>
+                      <div class="dietary-tags">
+                        <span class="tag spicy"><i class="fa-solid fa-bottle-droplet"></i></span>
+                      </div>
+                    </div>
+                    <p>Ketchup, mayonesa y más salsas para realzar el sabor de tus platos.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/congelados.jpg" class="img-fluid" alt="Congelados">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Congelados</h4>
+                      <div class="dietary-tags">
+                        <span class="tag gluten-free"><i class="bi bi-snow"></i></span>
+                      </div>
+                    </div>
+                    <p>Productos frescos para tu congelador.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/conservas.jpg" class="img-fluid" alt="Conservas">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Conservas</h4>
+                      <div class="dietary-tags">
+                        <span class="tag lila"><i class="fa-solid fa-jar"></i></span>
+                      </div>
+                    </div>
+                    <p>Alimentos de calidad, fáciles de almacenar y preparar.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/dulces.jpg" class="img-fluid" alt="Dulces">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Dulces</h4>
+                      <div class="dietary-tags">
+                        <span class="tag rosa"><i class="fa-solid fa-candy-cane"></i></span>
+                      </div>
+                    </div>
+                    <p>Chocolates, caramelos y demás para endulzar tu día.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/encurtidos.jpg" class="img-fluid" alt="Encurtidos">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Encurtidos</h4>
+                      <div class="dietary-tags">
+                        <span class="tag spicy"><i class="fas fa-pepper-hot"></i></span>
+                      </div>
+                    </div>
+                    <p>Pepinillos, aceitunas y encurtidos variados para acompañar tus comidas.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/fruta.jpg" class="img-fluid" alt="Fruta">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Fruta</h4>
+                      <div class="dietary-tags">
+                        <span class="tag vegetarian"><i class="fas fa-apple-alt"></i></span>
+                      </div>
+                    </div>
+                    <p>Frutas frescas y saludables, perfectas para comer a cualquier hora del día.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/lacteos.jpg" class="img-fluid" alt="Lácteos">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Lácteos</h4>
+                      <div class="dietary-tags">
+                        <span class="tag blanco"><i class="bi bi-egg-fried"></i></span>
+                      </div>
+                    </div>
+                    <p>Leche, yogures, quesos, huevos y mantequilla listos para consumir.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/legumbres.jpg" class="img-fluid" alt="Legumbres">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Legumbres</h4>
+                      <div class="dietary-tags">
+                        <span class="tag vegetarian"><i class="fas fa-seedling"></i></span>
+                      </div>
+                    </div>
+                    <p>Fuente de energía y bienestar natural que no puede faltar en tu despensa.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/panaderia.jpg" class="img-fluid" alt="Panadería">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Panadería</h4>
+                      <div class="dietary-tags">
+                        <span class="tag marron"><i class="fa-solid fa-bread-slice"></i></span>
+                      </div>
+                    </div>
+                    <p>Pan fresco, integral y de molde para todo tipo de comidas.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/pasta.jpg" class="img-fluid" alt="Pasta">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Pasta</h4>
+                      <div class="dietary-tags">
+                        <span class="tag naranja"><i class="fa-solid fa-bowl-food"></i></span>
+                      </div>
+                    </div>
+                    <p>Spaghettis, macarrones y otras pastas para tus recetas favoritas.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/alimentacion/snacks.jpg" class="img-fluid" alt="Snacks">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Snacks</h4>
+                      <div class="dietary-tags">
+                        <span class="tag naranja"><i class="fas fa-cookie"></i></span>
+                      </div>
+                    </div>
+                    <p>Aperitivos salados como gusanitos, patatas fritas y frutos secos.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Bebidas -->
+          <div class="tab-pane fade" id="products-drinks" role="tabpanel">
+            <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/bebidas/aguas.jpg" class="img-fluid" alt="Agua">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Agua</h4>
+                      <div class="dietary-tags">
+                        <span class="tag gluten-free"><i class="bi bi-droplet-fill"></i></span>
+                      </div>
+                    </div>
+                    <p>Agua mineral para hidratar tu día.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/bebidas/batidos.jpg" class="img-fluid" alt="Batidos">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Batidos</h4>
+                      <div class="dietary-tags">
+                        <span class="tag rosa"><i class="fa-solid fa-bottle-water"></i></span>
+                      </div>
+                    </div>
+                    <p>Batidos de chocolate, fresa o vainilla listos para beber.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/bebidas/bebidas_alcoholicas.jpg" class="img-fluid" alt="Bebidas alcohólicas">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Bebidas Alcohólicas</h4>
+                      <div class="dietary-tags">
+                        <span class="tag granate"><i class="fa-solid fa-wine-glass"></i></span>
+                      </div>
+                    </div>
+                    <p>Vinos, cervezas y licores para todos los gustos.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/bebidas/cafes.jpg" class="img-fluid" alt="Cafés">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Cafés</h4>
+                      <div class="dietary-tags">
+                        <span class="tag marron"><i class="fa-solid fa-mug-hot"></i></span>
+                      </div>
+                    </div>
+                    <p>Cafés en varios formatos para disfrutar de un buen descanso.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/bebidas/refrescos.jpg" class="img-fluid" alt="Refrescos">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Refrescos</h4>
+                      <div class="dietary-tags">
+                        <span class="tag premium"><i class="fa-solid fa-glass-water"></i></span>
+                      </div>
+                    </div>
+                    <p>Refrescos y gaseosas para darle sabor a tu día.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/bebidas/zumos.jpg" class="img-fluid" alt="Zumos">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Zumos</h4>
+                      <div class="dietary-tags">
+                        <span class="tag rosa"><i class="bi bi-cup-straw"></i></span>
+                      </div>
+                    </div>
+                    <p>Zumos y néctares de frutas naturales para beber y disfrutar.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Droguería -->
+          <div class="tab-pane fade" id="products-mains" role="tabpanel">
+            <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+              
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/drogueria/higiene_personal.jpg" class="img-fluid" alt="Higiene personal">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Higiene Personal</h4>
+                      <div class="dietary-tags">
+                        <span class="tag gluten-free"><i class="fa-solid fa-shower"></i></span>
+                      </div>
+                    </div>
+                    <p>Gel, champú, desodorante, etc para tu cuidado diario.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/drogueria/limpieza.jpg" class="img-fluid" alt="Limpieza">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Limpieza</h4>
+                      <div class="dietary-tags">
+                        <span class="tag gluten-free"><i class="bi bi-bucket-fill"></i></span>
+                      </div>
+                    </div>
+                    <p>Productos de limpieza para todos los rincones del hogar.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/drogueria/perfumeria.jpg" class="img-fluid" alt="Perfumería">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Perfumería</h4>
+                      <div class="dietary-tags">
+                        <span class="tag lila"><i class="fa fa-wind"></i></span>
+                      </div>
+                    </div>
+                    <p>Colonias y perfumes con fragancias únicas que realzan tu estilo.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="products-item">
+                  <div class="products-item-image">
+                    <img src="recursos/img/drogueria/productos_varios.jpg" class="img-fluid" alt="Productos varios">
+                  </div>
+                  <div class="products-item-content">
+                    <div class="products-item-header">
+                      <h4>Productos Varios</h4>
+                      <div class="dietary-tags">
+                        <span class="tag blanco"><i class="bi bi-battery-half"></i></span>
+                      </div>
+                    </div>
+                    <p>Pilas, pegamento y otros artículos prácticos para casa.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <div class="row gy-5">
+        
+        <div class="col-lg-12 footer-global">
+          <h4>Contacto</h4>
+          <div class="footer-contact">
+            
+            <div id="hor-ubi-tel-red">
+
+              <div class="contact-item class-hor-ubi-tel-red">
+                <div class="contact-icon">
+                  <i class="bi bi-clock"></i>
+                </div>
+                <div class="contact-info">
+                  <b>Horario</b>
+                  <div class="lista">
+                    Lunes, martes y miércoles: 
+                    <ul type="none">
+                      <li>09:00 AM - 13:30 PM</li>
+                    </ul>
+                    Jueves y viernes: 
+                    <ul type="none">
+                      <li>09:00 AM - 13:30 PM</li>
+                      <li>17.00 PM - 20.00 PM (Invierno)</li>
+                      <li>18.00 PM - 21.00 PM (Verano)</li>
+                    </ul>
+                    Sábados:
+                    <ul type="none">
+                      <li>09:00 AM - 14:00 PM</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            
+              <div id="ubi-tel-red">
+
+                <div class="contact-item class-hor-ubi-tel-red">
+                  <div class="contact-icon">
+                    <i class="bi bi-geo-alt"></i>
+                  </div>
+                  <div class="contact-info">
+                    <b>Ubicación</b>
+                    <p>Calle Ciudad Real, 26 <br> 45860 Villacañas, España</p>
+                  </div>
+                </div>
+
+                <div class="contact-item class-hor-ubi-tel-red">
+                  <div class="contact-icon">
+                    <i class="bi bi-telephone"></i>
+                  </div>
+                  <div class="contact-info">
+                    <b>Teléfono</b>
+                    <p>+34 687 78 72 25</p>
+                  </div>
+                </div>
+
+                <div class="contact-item class-hor-ubi-tel-red">
+                  <div class="contact-icon">
+                    <i class="bi bi-globe"></i>
+                  </div>
+                  <div class="contact-info">
+                    <b>Redes Sociales</b>
+                  <div>
+                    <a href="https://www.facebook.com/SupermercadoHmnasAmador" target="_blank" title="Enlace a nuestro Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/supermercado_hermanasamador" target="_blank" title="Enlace a nuestro Instagram"><i class="bi bi-instagram"></i></a>
+                  </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll hacia arriba -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Precargador -->
+  <div id="preloader"></div>
+
+  <!-- Archivos JS del proveedor -->
+  <script src="recursos/proveedor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="recursos/proveedor/aos/aos.js"></script>
+  <script src="recursos/proveedor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="recursos/proveedor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="recursos/proveedor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Archivo JS principal -->
+  <script src="recursos/js/main.js"></script>
+
+</body>
+</html>
