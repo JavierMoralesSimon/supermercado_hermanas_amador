@@ -19,10 +19,10 @@
 :root { 
   --background-color: #f7faef; /* Color de fondo para todo el sitio web, incluyendo secciones individuales. */
   --default-color: #352a26; /* Color predeterminado usado para la mayoría de contenido de texto del sitio web. */
-  --heading-color: #291812; /* Color para cabeceras, subcabeceras y títulos del sitio web. */
+  --heading-color: #291812; /* Color para encabezados, subencabezados y títulos del sitio web. */
   --accent-color: #e9094f; /* Color acentuado que representa a la marca en el sitio web. Es usado para botones, enlaces y otros elementos que necesitan resaltar. */
   --surface-color: #f7faef; /* La superficie de color es usado como fondo para elementos de caja que se encuentran dentro de secciones, tales como tarjetas, cajas de iconos u otros elementos que requieren una separación visual del fondo global del sitio web. */
-  --contrast-color: #f7faef; /* Contraste de color para textos, asegurando legibilidad en fondos acentuados, de cabecera, o colores predeterminados. */
+  --contrast-color: #f7faef; /* Contraste de color para textos, asegurando legibilidad en fondos acentuados, de encabezado, o colores predeterminados. */
 }
 
 /* Colores del menú de navegación - Las siguientes variables de color son usadas específicamente para el menú de navegación. Están separadas de los colores globales para asegurar más opciones de customización. */
@@ -86,7 +86,7 @@ h2 {
 }
 
 /*--------------------------------------------------------------
-# Cabecera global
+# Encabezado global
 --------------------------------------------------------------*/
 .header {
   color: var(--default-color);
@@ -389,6 +389,10 @@ h2 {
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
+li{
+  list-style-type: none;
+}
+
 .footer .footer-content p {
   font-size: 15px;
   line-height: 1.6;
@@ -493,12 +497,7 @@ h2 {
 
   .footer .footer-content {
     text-align: center;
-    /* margin-bottom: 40px; */
   }
-
-  /* .footer .footer-contact {
-    margin-bottom: 40px;
-  } */
 }
 
 /*--------------------------------------------------------------
@@ -1161,7 +1160,7 @@ h2 {
 
 .events .event-hero-content p {
   font-size: 1.15rem;
-  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  color: color-mix(in srgb, var(--default-color));
 }
 
 .events .event-hero-image {
